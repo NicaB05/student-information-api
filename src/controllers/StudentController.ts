@@ -1,5 +1,5 @@
 import type { Request, Response } from 'express';
-import { pool } from '../db.js';
+import { pool } from '../db.ts';
 
 export async function getStudents(_req: Request, res: Response): Promise<void> {
   try {
